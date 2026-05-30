@@ -453,6 +453,7 @@
         <condition property="native-dependencies-uptodate" value="true">
             <or>
                 <istrue value="${build.offline}"/>
+                <isset property="build.arch.loongarch64"/>
                 <resourceexists>
                     <file file="${lib.native}/touch.txt"/>
                 </resourceexists>
