@@ -204,9 +204,10 @@
                 </parallel>
             </beforeLink>
             <link>
-                <fileset dir="${lib.native}/org/lwjgl">
+                <fileset dir="${lib.native}/org/lwjgl" unless:set="build.arch.loongarch64">
                     <include name="libffi.a"/>
                 </fileset>
+                <arg value="-lffi" if:set="build.arch.loongarch64"/>
                 <arg value="-ldl"/>
             </link>
         </build>
