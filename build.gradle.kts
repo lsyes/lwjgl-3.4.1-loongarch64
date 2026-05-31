@@ -104,6 +104,7 @@ enum class Module(
         "A cross-platform, graphics API agnostic rendering library. It provides a high performance, low level abstraction for common platform graphics APIs like OpenGL, Direct3D and Apple Metal.",
         Platforms.FREEBSD,
         Platforms.LINUX, Platforms.LINUX_ARM64, Platforms.LINUX_ARM32, Platforms.LINUX_PPC64LE, Platforms.LINUX_RISCV64,
+        Platforms.LINUX_LOONGARCH64,
         Platforms.MACOS, Platforms.MACOS_ARM64,
         Platforms.WINDOWS, Platforms.WINDOWS_X86
     ),
@@ -149,6 +150,7 @@ enum class Module(
         "A lightweight container for textures for OpenGL®, Vulkan® and other GPU APIs.",
         Platforms.FREEBSD,
         Platforms.LINUX, Platforms.LINUX_ARM64, Platforms.LINUX_ARM32, Platforms.LINUX_PPC64LE, Platforms.LINUX_RISCV64,
+        Platforms.LINUX_LOONGARCH64,
         Platforms.MACOS, Platforms.MACOS_ARM64,
         Platforms.WINDOWS, Platforms.WINDOWS_ARM64
     ),
@@ -220,6 +222,7 @@ enum class Module(
         "A royalty-free, open standard that provides high-performance access to Augmented Reality (AR) and Virtual Reality (VR)—collectively known as XR—platforms and devices.",
         Platforms.FREEBSD,
         Platforms.LINUX, Platforms.LINUX_ARM64, Platforms.LINUX_ARM32, Platforms.LINUX_PPC64LE, Platforms.LINUX_RISCV64,
+        Platforms.LINUX_LOONGARCH64,
         Platforms.WINDOWS, Platforms.WINDOWS_X86, Platforms.WINDOWS_ARM64
     ),
     OPUS(
@@ -237,6 +240,7 @@ enum class Module(
         "A realtime CPU/GPU profiler hosted in a single C file with a viewer that runs in a web browser.",
         Platforms.FREEBSD,
         Platforms.LINUX, Platforms.LINUX_ARM64, Platforms.LINUX_ARM32, Platforms.LINUX_PPC64LE, Platforms.LINUX_RISCV64,
+        Platforms.LINUX_LOONGARCH64,
         Platforms.MACOS, Platforms.MACOS_ARM64,
         Platforms.WINDOWS, Platforms.WINDOWS_X86
     ),
